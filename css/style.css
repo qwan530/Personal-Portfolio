@@ -1,0 +1,169 @@
+button{
+    border: none;
+    background-color: transparent;
+    font-family: roboto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body{
+    padding-top: 0;
+    margin:0;
+}
+
+
+.head{
+    display: flex; 
+    justify-content: space-between;
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    top: 20px;
+}
+
+.name{
+    font-family: bold;
+    font-size: 33px;
+    flex-shrink: 0;
+}
+
+.nav-bar{
+    font-family: roboto;
+    font-size: 20px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    flex-shrink: 0;
+}
+
+.name, .home-page-button, .about-me-button, .project-button, .contact-button{
+    color:aliceblue;
+}
+
+.home-page-button:hover, .about-me-button:hover, .project-button:hover, .contact-button:hover{
+    color:rgb(24, 139, 247);
+    font-weight: bold;
+}
+
+
+.title-name {
+    position: absolute;
+    top: 47%;
+    left: 70%;
+    color: white;
+}
+
+.title-img {
+    width: 100%;
+}
+
+.title-paragraph{
+    position: absolute;
+        top: 45%;
+        left: 70%;
+        color: white;
+}
+
+.title-scroll-down {
+    position: absolute;
+        top: 63%;
+        left: 69.6%;
+        background-color: rgba(247, 126, 81, 0.5);
+        font-family: 600;
+        color: rgb(255, 255, 255);
+        border-radius: 12px;
+        padding: 10px;
+}
+
+
+#about {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: -6px;
+}
+
+.about-content {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(34, 50, 62, 0.15);
+}
+
+.about-img {
+    height: 100%;
+}
+
+.about-texts {
+    padding: 5%;
+    background-color: #fff;
+}
+
+.about-title {
+    color:rgb(24, 139, 247);
+}
+
+.transit-1 {
+    max-width: 100%;
+    display: block;
+}
+
+
+#projects {
+    height: 900px;
+    margin: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 229, 229);
+}
+
+.projects-contents {
+    height: 60%;
+    width: 75%;
+}
+
+.projects-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: rgb(5, 110, 209);
+    font-size: 33px;
+}
+
+.projects-subtitle {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: black;  
+}
+
+.projects-box {
+    display: flex;
+    column-gap: 40px;
+    height: 70%;
+    margin: 20px;
+}
+
+.project-1, .project-2, .project-3 {
+    background-color: white;
+    flex: 1;
+    box-shadow: 5px 5px 10px rgb(34, 50, 62, 0.15);
+    border: 5px;
+    padding: 30px;
+}
+
+
+#contact {
+    height: 140px;
+    margin: -6px;
+    background-color: rgb(24, 139, 247);
+    box-shadow: -5px -5px 10px rgb(34, 50, 62, 0.2);
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-size: 18px;
+}
